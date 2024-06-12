@@ -1,12 +1,13 @@
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'mangalab/css/main.css'%}">
 </head>
 <body>
-    <h1 style="color: cornflowerblue;">Bienvenue sur Mangalib</h1>
-    <h3 style="color: bisque;">{{message}}</h3>
+    <h1>Bienvenue sur Mangalib</h1>
+    <h3>{{message}}</h3>
 </body>
 </html>
